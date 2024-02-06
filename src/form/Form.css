@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+
+span {
+    color: red;
+    font-size: 0.75vmax;
+}
+
+#button {
+    padding: .5rem 1rem;
+    border-radius: .1rem;
+    color: aliceblue;
+    background-color: #222;
+    border: none;
+}
+
+#button:hover {
+    color: #222;
+    background-color: aliceblue;
+    border: .1rem solid #222;
+    padding: .4rem 1rem;
+}
